@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Title</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- UIkit CSS -->  
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.20/dist/css/uikit.min.css" />
+
+        <!-- UIkit JS -->
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.20/dist/js/uikit.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.20/dist/js/uikit-icons.min.js"></script>
+
+
+    </head>
+    <body style="background-color: #F1F1F1;">
+        <div class="uk-section-primary" style="background-color: #0C1154;">
+
+            <div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent uk-light; top: 200" style="background-color: #0C1154;">
+        
+               <nav class="uk-navbar-container">
+                    <div class="uk-container uk-container-expand" style="background-color: #0C1154;">
+                        <div uk-navbar>
+        
+                            <ul class="uk-navbar-nav">
+                                <li class="uk-active"><a href="#">Active</a></li>
+                                <li>
+                                    <a href="#">Fin-O-Rita</a>
+                                    
+                            </ul>
+
+                           <div class="uk-navbar-right">
+
+                                <div uk-navbar>
+        
+                            <ul class="uk-navbar-nav">
+                                
+                                    
+                                <li class="uk-active"><a href="#">Active</a></li>
+                                <li>
+                                    <a href="#">Fin-O-Rita</a>
+                                    
+                            </ul>
+                                    </div>
+                                </li>
+                                    
+                                    
+                                    <li class="uk-active"><a href="{{ url_for('share') }}">Investments</a></li>
+                                    <li class="uk-active"><a href="{{ url_for('courses') }}">Courses</a></li>
+                                    
+                                    <button class="uk-button uk-button-small uk-active" style="margin: 25px;height: 35px;background-color: #EB3847;">Sign-in</button>
+
+                                    
+                                        
+                                </ul>
+                        
+                            </div>
+        
+                        </div>
+                    </div>
+
+                    
+                </nav>
+            </div>
+        
+            <div class="uk-section uk-light">
+                <div class="uk-container">
+        
+                    <div class="uk-flex-middle" uk-grid>
+                        <div class="uk-width-1-3@m uk-flex-left">
+                            <img src="/static/cat.jpeg" alt="Image" height="450" width="450">
+                        </div>
+                        <div class="uk-width-2-3@m uk-flex-first">
+                            <h1>Fin-o-rita</h1>
+                            <p>Empowering all the senoritas, in finance</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+            </div>
+                </div>
+            </div>
+        
+        </div>
+        <br>
+        <br>
+        <br>
+        <div >
+            <div class="uk-container" id="about-us">
+                <div class="uk-child-width-1-1 uk-container-center" uk-grid >
+                <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid style=" background-image: linear-gradient(-65deg,#0078d7, white);padding: 10px 20px 20px 20px;border-radius: 15px;">
+                    <div class="uk-card-media-left uk-cover-container" >
+                        <img src="images/msp_logo.jpg" alt="" uk-cover>
+                        <canvas width="600" height="400"></canvas>
+                    </div>
+                
+                    <div >
+                        <div class="uk-card-body" style="background-image:transparent">
+                            <h1 class="uk-card-title" style="position: relative;
+                display: block;
+                font-size: 35px;
+                line-height: 1.2em;
+                color: #ffffff;
+                font-weight: 700;
+                margin-bottom: 50px;">About Fin-O-Rita</h1>
+                
+                            <h3>We bring to you a unique website, to teach and help all women across the world regarding finance and investments. We know that the number of women entrepreneurs and investors are quite less.So this website will help women, all across the world to learn about finances, investments and also give them a platform to connect with other women, and learn and grow together.</h3>
+                            
+                        </div>
+                    </div>
+                </div>
+                </div>
+                </div>
+    </div>
+        
+        
+        
+        <div class="uk-child-width-1-2@m uk-grid-match" uk-grid>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+                    <h3 class="uk-card-title">Learn</h3>
+                    <p>Visit our curated resource page, for assorted courses on finance, investment and entrepreunership.</p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+                    <h3 class="uk-card-title">& Inspire</h3>
+                    <p>If you are someone, who already has knowledge, the mentor other newbies, by announcing and hosting events for them.</p>
+                    
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+<footer style="background-color: black;color: white;"><div align="center" style="background-color: black;color: white;"><p>Made with &hearts; by team</p></div></footer>
+
+
+    </body>
+</html>
